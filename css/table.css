@@ -23,11 +23,12 @@
     align-items: center;
     text-align: center;
     margin-right: 10px;
-    grid-column-gap: 12px
+    grid-column-gap: 4px;
 }
 .nav__menu a{
     text-decoration: none;
     color: #273755;
+    font-size: 12px;
 }
 .nav__menu li a:hover {
     text-decoration: underline;
