@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="53px" viewBox="0 0 250 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>logo color copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="logo-color-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FF8C00" x="0" y="0" width="250" height="53"></rect>
+        <text id="Eduardo-Murrieta" font-family="Lato-Bold, Lato" font-size="16" font-weight="bold" fill="#FFFFFF">
+            <tspan x="107" y="33">Eduardo Murrieta</tspan>
+        </text>
+        <g id="logo-letter-white">
+            <g id="Logo-Eduardo-Copy" transform="translate(53.053000, 26.447000) rotate(270.000000) translate(-53.053000, -26.447000) translate(26.500000, -26.606000)">
+                <g id="Group" transform="translate(0.023862, 0.017028)">
+                    <path d="M8,0 L44.9696517,0 C49.3879297,-8.11624501e-16 52.9696517,3.581722 52.9696517,8 L52.9696517,97.9912179 C52.9696517,102.409496 49.3879297,105.991218 44.9696517,105.991218 L8,105.991218 C3.581722,105.991218 2.31743984e-15,102.409496 0,97.9912179 L0,8 C-5.41083001e-16,3.581722 3.581722,8.11624501e-16 8,0 Z" id="Path"></path>
+                </g>
+                <path d="M38.16,12.72 C39.3308437,12.72 40.28,13.6691563 40.28,14.84 L40.28,44.8690763 C40.28,46.03992 39.3308437,46.9890763 38.16,46.9890763 C36.9891563,46.9890763 36.04,46.03992 36.04,44.8690763 L36.04,14.84 C36.04,13.6691563 36.9891563,12.72 38.16,12.72 Z" id="Rectangle-2-Copy" fill="#FFFFFF"></path>
+                <path d="M26.394,12.72 C27.5648437,12.72 28.514,13.6691563 28.514,14.84 L28.514,36.1421687 C28.514,37.3130123 27.5648437,38.2621687 26.394,38.2621687 C25.2231563,38.2621687 24.274,37.3130123 24.274,36.1421687 L24.274,14.84 C24.274,13.6691563 25.2231563,12.72 26.394,12.72 Z" id="Rectangle-2-Copy-4" fill="#FFFFFF"></path>
+                <path d="M14.84,12.72 C16.0108437,12.72 16.96,13.6691563 16.96,14.84 L16.96,44.8690763 C16.96,46.03992 16.0108437,46.9890763 14.84,46.9890763 C13.6691563,46.9890763 12.72,46.03992 12.72,44.8690763 L12.72,14.84 C12.72,13.6691563 13.6691563,12.72 14.84,12.72 Z" id="Rectangle-2" fill="#FFFFFF"></path>
+                <polygon id="Rectangle-2-Copy-3" fill="#FFFFFF" transform="translate(26.394000, 57.248492) rotate(-90.000000) translate(-26.394000, -57.248492) " points="25.9868245 39.824108 26.8011755 39.824108 26.8011755 74.6728765 25.9868245 74.6728765"></polygon>
+                <path d="M41.4679802,63.6 L41.4671536,68.914 L31.3367137,78.5564563 L41.4671536,88.198 L41.4679802,93.3357671 L25.8461536,78.4678835 L41.4679802,63.6 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <polygon id="Rectangle-2-Copy-5" fill="#FFFFFF" transform="translate(22.717389, 91.159727) rotate(-90.000000) translate(-22.717389, -91.159727) " points="20.5973895 81.1315964 24.8373895 81.1315964 24.8373895 101.187857 20.5973895 101.187857 20.5973895 90.064784 20.5973895 85.1753471"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
