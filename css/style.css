@@ -20,6 +20,9 @@ h1,h2,h3,h4,h4,h5,h6 {
     background-color: white;
     z-index: 1024;
 }
+.nav__menu {
+    display: none;
+}
 .header__img {
     width: 200px;
     margin-left: 20px;
@@ -61,18 +64,6 @@ h1,h2,h3,h4,h4,h5,h6 {
                          "cuatro cinco seis   ";
     justify-items: center;
 }
-/* .segment {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 49% 2% 49%;
-    align-items: center;
-    justify-items: center;
-    background-image: url('../assets/cover.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    grid-template-rows: 10vh 80vh
-} */
 .segment__arrow {
     min-width: 20px;
     width: 30px;

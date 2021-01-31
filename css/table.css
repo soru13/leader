@@ -1,0 +1,115 @@
+.boton {
+    min-width: 100px;
+}
+.boton__texto {
+    font-size: 18px;
+}
+.segment__copy h1 {
+    font-size: 35px;
+    margin: 0px;
+    line-height: 35px;
+}
+.segment__copy span {
+    font-size: 18px;
+}
+.header__menu {
+    display: none;
+}
+.nav__menu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    grid-column-gap: 12px
+}
+.nav__menu a{
+    text-decoration: none;
+    color: #273755;
+}
+.nav__menu li a:hover {
+    text-decoration: underline;
+}
+.nav__menu--profile {
+    margin-right: 8px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+.nav__menu--profile img{
+    margin-right: 8px;
+    width: 40px;
+}
+.nav__menu--profile p{
+    margin: 0px;
+    color: white;
+}
+.medir {
+    grid-template-rows: 50vh 50vh ;
+    grid-template-areas:"primer"
+    "second"
+    "third";
+}
+.medir__empresas {
+    grid-column: span 2;
+    align-self: end;
+    padding: 0px 5%;
+}
+.proyectos__img {
+    grid-column: span 2;
+}
+.segment__copy--color {
+    width: 100%;
+}
+.proyectos__img {
+    width: 70%;
+}
+.proyectos__empresas {
+    grid-column: span 2;
+}
+.card {
+    width: 300px;
+}
+.card__title {
+    font-size: 18px;
+}
+.card__text {
+    font-size: 12px;
+}
+.proyectos__img {
+    display: none;
+}
+.servicios__title {
+    font-size: 14px;
+}
+.carousel__container h1 {
+    font-size: 16px;
+}
+.carousel-item {
+    width: 350px;
+}
+.logos {
+    grid-template-columns: repeat(2, 1fr);
+}
+.logos h1{
+    font-size: 15px;
+}
+.footer {
+    display: block;
+    height: 50vh;
+}
+.footer h3 {
+    font-size: 12px;
+}
+.footer__item--img {
+    width: 20px;
+}
+.footer__title--size {
+    font-size: 15px;
+}
+.footer__title {
+    font-size: 18px;
+    border-bottom: 2px solid #FE563B
+}
