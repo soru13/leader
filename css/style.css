@@ -77,6 +77,9 @@ h1,h2,h3,h4,h4,h5,h6 {
     text-align: center;
     color: white;
 }
+.segment__copy p {
+    font-size: 18px;
+}
 .segment__copy--color{
     width: 90%;
     grid-column: span 3;
@@ -125,11 +128,14 @@ h1,h2,h3,h4,h4,h5,h6 {
 .logos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 100vh;
-    width: 100vw;
+    /* height: 100vh;
+    
     justify-items: center;
+    align-items: center; */
+    grid-template-rows: 10vh 1fr;
+    align-self: start;
+    width: 100vw;
     align-items: center;
-    grid-template-rows: 20vh repeat(3, 1fr);
 }
 .logos_img {
     width: 70%;
@@ -212,6 +218,7 @@ h1,h2,h3,h4,h4,h5,h6 {
     display: grid;
     align-items: center;
     height: 100vh;
+    grid-template-rows: 10vh 50vh 50vh;
 }
 .carousel__container {
     white-space: nowrap;
@@ -219,7 +226,7 @@ h1,h2,h3,h4,h4,h5,h6 {
 .carousel-item {
     background-color: #273755;
     width: 400px;
-    height: 250px;
+    height: 200px;
     border-radius: 20px;
     overflow: hidden;
     margin-right: 10px;
@@ -259,7 +266,8 @@ h1,h2,h3,h4,h4,h5,h6 {
     white-space: normal;
     text-align: left;
     padding: 0px 3%;
-    font-size: 1.125rem;
+    margin: 0px;
+    font-size: 16px;
 }
 .carousel-item__stracto {
     justify-self: left;
