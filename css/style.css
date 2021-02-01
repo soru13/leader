@@ -114,6 +114,9 @@ h1,h2,h3,h4,h4,h5,h6 {
     background: #FE563B;
     transition: 3s ease all;
 }
+.boton--span {
+    grid-column: span 7;
+}
 .boton__texto:hover {
     background-color: #1B1881;
     text-decoration: none;
@@ -310,4 +313,44 @@ footer {
     display: grid;
     justify-items: center;
     grid-row-gap: 8px;
+}
+.proceso {
+    display: grid;
+    grid-template-columns: 23vw 2.6vw 23vw 2.6vw 23vw 2.6vw 23vw;
+    grid-template-rows: 25vh 55vh 20vh;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    color: #1B1881;
+}
+.proceso__title {
+    width: 90%;
+    grid-column: span 7;
+    color: #273755;
+    text-align: center;
+    align-self: end;
+    margin-bottom: 1%;
+}
+.proceso__title h1 {
+    margin: 0px;
+}
+.proceso_img {
+    width: 40%;
+}
+.proceso_item {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    text-align: left;
+    color: black;
+    align-self: start;
+}
+.proceso_p {
+    color: #FE563B;
+    font-size: 16px;
+    font-weight: bold;
+}
+.proceso_arrow {
+    width: 100%;
+    align-self: start;
 }

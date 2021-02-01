@@ -21,13 +21,13 @@
 }
 .nav__menu {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     height: 100%;
     align-items: center;
     text-align: center;
     margin-right: 10px;
-    grid-column-gap: 4px;
+    grid-column-gap: 7px;
     width: 50%;
 }
 .nav__menu a{
@@ -118,4 +118,34 @@
 .footer__title {
     font-size: 18px;
     border-bottom: 2px solid #FE563B
+}
+.proceso_item span {
+    display: none;
+}
+.proceso {
+    grid-template-rows: 35vh 45vh 20vh;
+}
+.proceso_arrow, .proceso_item {
+    align-self: center;
+}
+.proceso_p {
+    font-size: 12px;
+    text-align: center;
+}
+.proyectos__empresas {
+    height: 80%;
+}
+.boton-siza {
+    height: 40px;
+    min-width: 60px;
+}
+.boton-siza span {
+    font-size: 12px;
+}
+.boton__icon {
+    width: 20px;
+}
+.carousel__container:hover .carousel-item:hover {
+    opacity: 1;
+    transform: scale(1.3);
 }
