@@ -53,7 +53,7 @@
     color: white;
 }
 .medir {
-    grid-template-rows: 40vh 40vh 20vh;
+    grid-template-rows: 35vh 45vh 20vh;
     grid-template-areas:"primer"
     "second"
     "third";
@@ -77,7 +77,7 @@
 .medir__img {
     display: block;
     grid-column: span 2;
-    align-self: start;
+    align-self: center;
 }
 .segment__copy--color {
     width: 100%;
