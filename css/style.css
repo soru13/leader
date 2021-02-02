@@ -76,15 +76,16 @@ h1,h2,h3,h4,h4,h5,h6 {
     grid-column: span 3;
     text-align: center;
     color: white;
+    font-weight: bold;
 }
 .segment__copy p {
     font-size: 18px;
 }
 .segment__copy--color{
-    width: 90%;
     grid-column: span 3;
-    text-align: center;
+    text-align: left;
     color: #273755;
+    align-self: end;
 }
 .segment__copy h1 {
     font-size: 50px;
@@ -128,9 +129,16 @@ h1,h2,h3,h4,h4,h5,h6 {
 .medir {
     display: grid;
     grid-template-columns: repeat(2, 50vw);
-    height: 100vh;
+    height: 90vh;
     justify-items: center;
     align-items: center;
+}
+.medir__empresas {
+    width: 90%;
+    display: grid;
+    grid-template-rows: 69% 29%;
+    height: 80%;
+    grid-row-gap: 5%;
 }
 .logos {
     display: grid;
@@ -146,7 +154,6 @@ h1,h2,h3,h4,h4,h5,h6 {
 }
 .logos_img {
     width: 70%;
-    cursor: pointer;
 }
 .proyectos {
     display: grid;
@@ -158,8 +165,7 @@ h1,h2,h3,h4,h4,h5,h6 {
 }
 .proyectos__empresas {
     display: grid;
-    grid-row-gap: 8%;
-    height: 80%;
+    width: 90%
 }
 .card {
     background-color: #fff;
@@ -197,9 +203,6 @@ h1,h2,h3,h4,h4,h5,h6 {
     padding-top: 10vh;
 }
 .card_servicios_texts {
-    width: 90%;
-    display: grid;
-    height: 60%;
 }
 .card--aligns {
     align-self: start;
@@ -213,7 +216,7 @@ h1,h2,h3,h4,h4,h5,h6 {
     justify-items: center;
 }
 .servicios__title {
-    font-size: 30px;
+    font-size: 20px;
     margin: 0px;
     font-weight: bold;
     font-family: 'Mulish';
@@ -293,8 +296,8 @@ h1,h2,h3,h4,h4,h5,h6 {
 footer {
     display: grid;
     grid-template-columns: repeat(4, 25vw);
-    grid-template-rows: 10vh 10vh 50vh;
-    height: 70vh;
+    grid-template-rows: 25vh 10vh auto;
+    height: 100vh;
     justify-items: center;
     align-items: center;
     background-color: #273755;
@@ -309,6 +312,7 @@ footer {
 .footer__title--size {
     grid-column: span 5;
     font-family: 'Mulish';
+    align-self: end;
 }
 .footer__item--img {
     width: 40px;
@@ -353,9 +357,12 @@ footer {
     color: black;
     align-self: start;
 }
+.proceso_item span {
+    text-align: justify;
+}
 .proceso_p {
-    color: #FE563B;
-    font-size: 16px;
+    color: black;
+    font-size: 18px;
     font-weight: bold;
 }
 .proceso_arrow {
