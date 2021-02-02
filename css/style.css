@@ -121,6 +121,10 @@ h1,h2,h3,h4,h4,h5,h6 {
     background-color: #1B1881;
     text-decoration: none;
 }
+#video {
+    width: 100vw;
+    height: 100vh;
+}
 .medir {
     display: grid;
     grid-template-columns: repeat(2, 50vw);
@@ -282,6 +286,9 @@ h1,h2,h3,h4,h4,h5,h6 {
 }
 .boton__icon {
     width: 25px;
+}
+.boton-center {
+    display: none;
 }
 footer {
     display: grid;
