@@ -151,3 +151,9 @@
 .boton--span {
     align-self: start;
 }
+.segment_cover {
+    grid-template-rows: 70vh 20vh;
+}
+.segment__arrow {
+    align-self: start;
+}
