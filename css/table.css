@@ -110,8 +110,13 @@
     font-size: 15px;
 }
 .footer {
-    display: block;
-    height: 50vh;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 25vh 10vh auto;
+    grid-template-columns: none;
+}
+.footer__item {
+    grid-column: span 5;
 }
 .footer h3 {
     font-size: 12px;
