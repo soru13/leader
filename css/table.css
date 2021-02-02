@@ -89,6 +89,7 @@
 }
 .segment__copy--color p {
     text-align: justify;
+    font-size: 16px;
 }
 .proyectos__empresas {
     grid-column: span 2;
