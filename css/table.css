@@ -53,7 +53,7 @@
     color: white;
 }
 .medir {
-    grid-template-rows: 45vh 40vh 15vh;
+    grid-template-rows: 45vh 38vh 17vh;
     grid-template-areas:"primer primer"
     "second second"
     "third third";
