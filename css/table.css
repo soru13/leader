@@ -53,10 +53,13 @@
     color: white;
 }
 .medir {
-    grid-template-rows: 45vh 38vh 17vh;
-    grid-template-areas:"primer primer"
-    "second second"
-    "third third";
+    grid-template-rows: none;
+    grid-template-areas:
+        "primer primer"
+        "second second"
+        "third third";
+    grid-template-columns: none;
+    align-content: center;
 }
 .medir__empresas {
     grid-column: span 2;
@@ -76,7 +79,7 @@
     display: none;
 }
 .medir__img {
-    display: block;
+    display: none;
     grid-column: span 2;
     align-self: center;
 }
@@ -170,9 +173,7 @@
     align-self: start;
 }
 .boton-center {
-    display: inline-flex;
-    grid-column: span 2;
-    align-self: start;
+    display: none;
 }
 .segment_cover {
     grid-template-rows: 70vh 20vh;

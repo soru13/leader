@@ -85,7 +85,8 @@ h1,h2,h3,h4,h4,h5,h6 {
     grid-column: span 3;
     text-align: left;
     color: #273755;
-    align-self: end;
+    align-self: start;
+    font-size: 18px;
 }
 .segment__copy h1 {
     font-size: 50px;
@@ -129,16 +130,15 @@ h1,h2,h3,h4,h4,h5,h6 {
 .medir {
     display: grid;
     grid-template-columns: repeat(2, 50vw);
-    height: 90vh;
+    height: 100vh;
     justify-items: center;
     align-items: center;
 }
 .medir__empresas {
     width: 90%;
     display: grid;
-    grid-template-rows: 69% 29%;
-    height: 80%;
-    grid-row-gap: 5%;
+    grid-template-rows: 20% 40% 40%;
+    height: 100%;
 }
 .logos {
     display: grid;
