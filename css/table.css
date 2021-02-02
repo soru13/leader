@@ -63,14 +63,16 @@
     align-self: end;
     padding: 0px 5%;
 }
+.proyectos {
+    grid-template-rows: 20vh 70vh 10vh;
+}
 .proyectos__img {
     grid-column: span 2;
+    width: 70%;
+    display: none;
 }
 .segment__copy--color {
     width: 100%;
-}
-.proyectos__img {
-    width: 70%;
 }
 .proyectos__empresas {
     grid-column: span 2;
@@ -83,9 +85,6 @@
 }
 .card__text {
     font-size: 12px;
-}
-.proyectos__img {
-    display: none;
 }
 .servicios__title {
     font-size: 14px;
