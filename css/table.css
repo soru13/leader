@@ -1,3 +1,6 @@
+h1 {
+    font-size: 22px;
+}
 .boton {
     min-width: 100px;
 }
@@ -72,12 +75,16 @@
     display: none;
 }
 .proyectos {
-    grid-template-rows: 18vh 70vh 12vh;
+    grid-template-rows: none;
+    grid-template-columns: repeat(2, 50vw);
 }
 .proyectos__img {
     grid-column: span 2;
     width: 70%;
     display: none;
+}
+.proyectos_title h1 {
+    font-size: 1.5em !important;
 }
 .medir__img {
     display: none;
@@ -115,8 +122,11 @@
 .servicios__title {
     font-size: 14px;
 }
+.card__text li {
+    font-size: 12px;
+}
 .carousel__container h1 {
-    font-size: 16px;
+    text-align: left;
 }
 .carousel-item {
     width: 350px;
@@ -147,13 +157,12 @@
 }
 .footer__title {
     font-size: 18px;
-    border-bottom: 2px solid #FE563B
 }
 .proceso_item span {
     display: none;
 }
 .proceso {
-    grid-template-rows: 35vh 45vh 20vh;
+    grid-template-rows: 38vh 47vh 15vh;
 }
 .proceso_arrow, .proceso_item {
     align-self: center;
@@ -161,9 +170,6 @@
 .proceso_p {
     font-size: 12px;
     text-align: center;
-}
-.proyectos__empresas {
-    height: 80%;
 }
 .boton-siza {
     height: 40px;
