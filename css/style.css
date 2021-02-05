@@ -307,6 +307,9 @@ h3 {
     justify-self: left;
     text-align: left;
 }
+.carousel-item__stracto  h3{
+    color: white;
+}
 .carousel-item__header h3 {
     margin: 0px;
 }

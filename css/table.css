@@ -127,6 +127,7 @@ h1 {
 }
 .carousel__container h1 {
     text-align: left;
+    color: #273755;
 }
 .carousel-item {
     width: 350px;
@@ -135,7 +136,7 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
 }
 .logos h1{
-    font-size: 15px;
+    font-size: 22px;
 }
 .footer {
     display: grid;
