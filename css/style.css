@@ -162,14 +162,14 @@ h3 {
 .logos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 10vh 1fr;
+    grid-template-rows: 10vh 25vh;
     align-self: start;
     width: 100vw;
     align-items: center;
     padding: 0px 30px;
 }
 .logos_img {
-    width: 70%;
+    width: 100%;
 }
 .proyectos {
     display: grid;
@@ -332,7 +332,6 @@ footer {
     color: white;
     text-align: center;
     background-image: url('../assets/footer.jpeg');
-    background-image: no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
 }

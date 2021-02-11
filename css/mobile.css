@@ -1,0 +1,56 @@
+.carousel-item__stracto h3, a {
+    font-size: 12px;
+}
+.carousel-item__stracto span {
+    font-size: 11px;
+}
+.carousel-item__details p {
+    font-size: 12px;
+}
+.card_servicios_texts {
+    width: 100%;
+}
+.nav__menu {
+    display: none;
+}
+.header__img {
+    width: 130px;
+}
+.segment__copy h1{
+    font-size: 30px;
+}
+.segment__copy p {
+    font-size: 15px;
+}
+.segment__copy span {
+    font-size: 15px;
+}
+.segment__copy--color {
+    font-size: 15px;
+}
+.medir__empresas {
+    height: 100vh;
+}
+.segment__copy--color h1 {
+    font-size: 18px;
+}
+.proceso__title h1 {
+    font-size: 18px;
+}
+.proceso__title p {
+    font-size: 15px;
+}
+.proceso_p {
+    font-size: 9px;
+}
+.carousel__tile {
+    font-size: 20px;
+    text-align: center;
+}
+.logos h1 {
+    font-size: 20px;
+    text-align: center;
+}
+.footer__title {
+    font-size: 15px;
+}
