@@ -133,10 +133,12 @@ h1 {
 }
 .logos {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 10vh 30vh;
+    grid-template-rows: 10vh 15vh 15vh;
+    grid-column-gap: 2vw;
 }
 .logos h1{
     font-size: 22px;
+    grid-column: span 3;
 }
 .footer {
     display: grid;
@@ -181,10 +183,6 @@ h1 {
 }
 .boton__icon {
     width: 20px;
-}
-.carousel__container:hover .carousel-item:hover {
-    opacity: 1;
-    transform: none;
 }
 .boton--span {
     align-self: start;
