@@ -138,7 +138,6 @@ h3 {
     grid-column: span 7;
 }
 .boton__texto:hover {
-    background-color: #1B1881;
     text-decoration: none;
 }
 #video {
